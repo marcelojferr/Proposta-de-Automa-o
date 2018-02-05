@@ -1,6 +1,6 @@
 # Proposta_Automacao
 
-**Project AutomacaoWebDesktop**
+### Project AutomacaoWebDesktop
 - Programming Language: JAVA
 - Framework: Selenium WebDriver
 - IDE: Eclipse
@@ -9,7 +9,7 @@
 - Create a JUnit project to build the program;
 - Add all dependences in the project regarding some frameworks that I used such as, xlxs external JARs;
 
-**Project testeAPI**
+### Project testeAPI 
 - Programming Language: JAVA
 - Framework: Rest-Assurance
 - IDE: Eclipse
