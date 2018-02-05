@@ -1,0 +1,27 @@
+{
+   "$schema":"http://json-schema.org/draft-04/schema#",
+   "type":"object",
+   "description":"CEP information",
+   "properties":{
+	 "cep":			{"type":"string"},
+	 "logradouro":	{"type":"string"},
+	 "Complemento":	{"type":"string"},
+	 "bairro":		{"type":"string"},
+	 "Localidade":	{"type":"string"},
+	 "uf":			{"type":"string"}, 
+	 "unidade":		{"type":"string"}, 
+	 "ibge":		{"type":"string"}, 
+	 "gia":			{"type":"string"}
+   },
+   "required":[
+      "cep",
+      "logradouro",
+      "Complemento",
+      "bairro",
+      "Localidade",
+      "uf",
+      "unidade",
+      "ibge",
+      "gia"
+   ]
+}
