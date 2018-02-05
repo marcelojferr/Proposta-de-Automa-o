@@ -1,7 +1,7 @@
 # Proposta_Automacao
 
 **Project AutomacaoWebDesktop**
-> Programming Language: JAVA
+ - Programming Language: JAVA
 > Framework: Selenium WebDriver
 > IDE: Eclipse
 > Concept: TDD/BDD
