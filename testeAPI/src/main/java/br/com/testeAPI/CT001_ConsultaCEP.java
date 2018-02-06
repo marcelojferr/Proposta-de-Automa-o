@@ -1,6 +1,5 @@
 package br.com.testeAPI;
 
-
 import org.junit.Before;
 import org.junit.Test;
 
@@ -21,7 +20,14 @@ public class CT001_ConsultaCEP
 	@Test
     public void main() throws Exception   {
 		
-		ApiTest apiTest = new ApiTest();
-		apiTest.consultaCEP();
+		try{
+			
+			ApiTest apiTest = new ApiTest();
+			apiTest.consultaCEP();
+					
+		}
+		catch (Throwable e)	{
+			System.out.println("CEP invalido! " + e.getMessage());
+		}		
     }
 }
